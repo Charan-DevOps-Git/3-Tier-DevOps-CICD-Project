@@ -33,13 +33,14 @@ The **3-Tier DevOps CI/CD Project** involves setting up a comprehensive pipeline
 3. goto cloudinary website and sign up if you haven't had an account.
     - Copy the environmetnal credentials by clicking on view API Keys button.
     - copy the env variables from github repo as follows
+   ```
         CLOUDINARY_CLOUD_NAME=
         CLOUDINARY_KEY=
         CLOUDINARY_SECRET=
         MAPBOX_TOKEN=
         DB_URL=" "
-        SECRET=devopsshack
-
+        SECRET=
+```
     - Paste the credentials accordingly and keep it ready for configuration
 4. goto mapbox and create an account if you don't have any
     - copy the public token and paste it in the env variables as specified above
